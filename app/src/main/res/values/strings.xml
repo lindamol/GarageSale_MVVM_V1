@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">GarageSale_MVVM</string>
+    <string name="email_hint">Enter your Email ID</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="button_text">Login</string>
+    <string name="please_enter_email_address">Please enter Email Address</string>
+    <string name="please_enter_password">Please enter Password</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="login">LOGIN</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+    <string name="welcome_to_garage_sale">Welcome to Garage Sale</string>
 </resources>
