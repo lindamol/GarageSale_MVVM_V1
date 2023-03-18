@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
           super.onCreate(savedInstanceState);
        ActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
              //setContentView(R.layout.activity_main);
-       // activityMainBinding.setMyvariable("Welcome to GarageSale");
+       activityMainBinding.setMyvariable("Welcome to GarageSale");
     }
     @BindingAdapter({ "toastMessage" })
     public static void runMe(View view, String message) {

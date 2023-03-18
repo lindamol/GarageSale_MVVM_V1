@@ -67,5 +67,8 @@ public class LoginViewModel extends BaseObservable {
         return !TextUtils.isEmpty(getUserEmail()) && Patterns.EMAIL_ADDRESS.matcher(getUserEmail()).matches()
                 && getUserPassword().length() > 5;
     }
+    public  void  handleClick(){
+        System.out.println("Hooooooooooooooooooooooooooooooooooooooooooooooooy");
+    }
 
     }

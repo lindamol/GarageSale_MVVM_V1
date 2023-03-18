@@ -8,6 +8,9 @@
         <variable
             name="myvariable"
             type="String" />
+        <variable
+            name="loginmodel"
+            type="com.example.garagesale_mvvm.viemodel.LoginViewModel" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -106,6 +109,7 @@
         android:background="@drawable/border_line"
         android:backgroundTint="@color/LightBlue"
         android:text="@string/login"
+        android:onClick="@{() -> loginmodel.handleClick()}"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="16sp"
